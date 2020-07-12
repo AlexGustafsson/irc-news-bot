@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+/venv
+
+# Ignore dynamically created files
+/.pytest_cache
+/.coverage
+/.mypy_cache
+__pycache__
+/documentation
+*.pyc
+.hypothesis
+
+# Ignore macOS DS Store files
+.DS_Store

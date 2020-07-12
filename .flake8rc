@@ -1,0 +1,6 @@
+[flake8]
+ignore = D203, E124, D401, D410, D411
+exclude = .git, __pycache__
+max-line-length = 120
+docstring-convention = numpy
+application_import_names = irc

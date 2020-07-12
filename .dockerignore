@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Whitelist application code
+!/bot
+!/irc
+!/Makefile
+!/requirements.txt
+
+# Ignore pycache
+__pycache__
