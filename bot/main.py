@@ -105,8 +105,8 @@ def main() -> None:
     parser.add_argument("-t", "--timeout", default=300, type=float, help="Connection timeout in seconds")
 
     # Add optional parameters for authentication etc.
-    parser.add_argument("-u", "--user", default="emoji-bot", help="Username to use when connecting to the IRC server")
-    parser.add_argument("-n", "--nick", default="emoji-bot", help="Nick to use when connecting to the IRC server")
+    parser.add_argument("-u", "--user", default="news-bot", help="Username to use when connecting to the IRC server")
+    parser.add_argument("-n", "--nick", default="news-bot", help="Nick to use when connecting to the IRC server")
     parser.add_argument(
         "-g",
         "--gecos",
