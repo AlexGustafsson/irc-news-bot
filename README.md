@@ -33,9 +33,9 @@ docker run axgn/irc-news-bot --server irc.example.com --channel "#random"
 docker run axgn/irc-news-bot --server irc.example.com --channel "#random"
 ```
 
-The image is stateless and based on Alpine and is roughly 90MB in size. While running, the container usually uses 0% of the CPU and roughly 7MB of RAM. During load it uses about 0.20% CPU and while starting about 0.4% on a single core and an unchanged amount of RAM.
+The image is stateless and based on Debian Buster and is roughly 964MB in size, due to the dependencies used. While running, the container usually uses 0% of the CPU and roughly 25MB of RAM. During load it uses about 0.20% CPU and while starting about 0.4% on a single core and an unchanged amount of RAM.
 
-To prevent any unforseen events, one can therefore limit the container's resources by using the flags `--cpus=0.05` and `--memory=10MB` which should both leave some head room.
+To prevent any unforseen events, one can therefore limit the container's resources by using the flags `--cpus=0.05` and `--memory=64MB` which should both leave some head room.
 
 #### Invoking via IRC
 
